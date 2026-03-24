@@ -4,11 +4,12 @@ body{
 
 .godnav {
     background-color: aqua;
-    position: relative;
+    position: fixed;
     padding: 8px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100vw;
 }
 
 .godnav a {
@@ -29,6 +30,7 @@ body{
     padding: 5px;
     margin: 5px;
     width: 195px;
+    height: 50px;
     border: none;
     text-align: center;
     outline: none;
@@ -42,7 +44,6 @@ body{
 .content{
     display: none;
     overflow: hidden;
-    background-color: gray;
     z-index: 1;
     width: 100px;
     height: 70px;
@@ -52,14 +53,55 @@ body{
 }
 
 .combine{
-    width: 200px;
+    width: 400px;
+    padding-right: 25px;
+    display: flex;
+    flex-direction: row;
+}
+
+.combine .content{
+    display: flex;
+    flex-direction: column;
 }
 
 .content a{
-    padding: auto;
-    padding-top: 10px;
+    padding: 2px;
+    margin-top: 6px;
+    background-color: gray;
 }
 
 #GodH{
-    margin-top: 1000px;
+    margin-top: 0px;
+}
+
+.Gray{
+    padding-top: 90px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.GrayText{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.GText{
+    width: 50vw;
+    padding-left: 20px;
+}
+
+.GrayHistory{
+    width: 100%;
+}
+
+.ImagesGray{
+    display: flex;
+    flex-direction: column;
+}
+
+img{
+    width: 40vw;
+    height: 55vh;
+    margin: 10px;
 }
