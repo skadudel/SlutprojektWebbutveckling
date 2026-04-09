@@ -82,14 +82,14 @@ h1{
     padding-top: 130px;
     display: flex;
     justify-content: space-around;
-    background-image: linear-gradient(black, white);
+    background-image: linear-gradient(black,white);
+    /* mediascreen för mindre skärm så att det blir white,slategray, black */
 }
 
 .GText{
     width: 50vw;
     padding-left: 20px;
     color: white;
-    /* täxtfärg bör ändras till något mer lättläst */
 }
 
 .GrayHistory{
@@ -132,13 +132,14 @@ h2{
     padding-top: 10px;
     display: flex;
     justify-content: space-around;
-    background-color: rgb(58, 58, 255);
+    background-color: rgb(55, 55, 170);
+    /* mediascreen måste ändra så att det blir 100 vw på social texten när det blir mindre skärm */
 }
 
 .DNLText{
     width: 50vw;
     padding-left: 20px;
-    color: black;
+    color: white;
 }
 
 .ImagesDNL{
