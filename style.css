@@ -133,7 +133,7 @@ h2{
     display: flex;
     justify-content: space-around;
     background-color: rgb(55, 55, 170);
-    /* mediascreen måste ändra så att det blir 100 vw på social texten när det blir mindre skärm */
+    /* mediascreen måste ändra så att det blir 100 vw på texterna och bilderna när det blir mindre skärm */
 }
 
 .DNLText{
