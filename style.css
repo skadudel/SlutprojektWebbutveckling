@@ -82,7 +82,7 @@ h1{
     padding-top: 130px;
     display: flex;
     justify-content: space-around;
-    background-image: linear-gradient(black,white);
+    background-image: linear-gradient( white,slategray, black);
     /* mediascreen för mindre skärm så att det blir white,slategray, black */
 }
 
@@ -90,6 +90,7 @@ h1{
     width: 50vw;
     padding-left: 20px;
     color: white;
+    text-shadow: 2px 2px 3px black;
 }
 
 .ImagesGray{
