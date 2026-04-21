@@ -92,10 +92,6 @@ h1{
     color: white;
 }
 
-.GrayHistory{
-    width: 100%;
-}
-
 .ImagesGray{
     display: flex;
     flex-direction: column;
@@ -157,4 +153,27 @@ h2{
 
 #Godp {
     scroll-margin-top: 160px;
+}
+
+@media screen and (max-width:750px){
+    .Gray{
+        flex-wrap: wrap;
+    }
+    .GText{
+        width: 90vw;
+    }
+    .ImagesGray{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .DeathAndLonging{
+        flex-wrap: wrap;
+    }
+    .DNLText{
+        width: 90vw;
+    }
+    .ImagesDNL{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
 }
