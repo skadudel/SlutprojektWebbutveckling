@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 body{
@@ -18,9 +19,11 @@ body{
 
 .godnav .combine a {
     color: black;
-    padding-left: 8px;
+    padding: 2px 15px;
     text-decoration: none;
     display: block;
+    margin-left: 0;
+   
 }
 
 #home{
@@ -40,7 +43,7 @@ body{
     font-size: 15px;
     padding: 5px;
     margin: 5px;
-    width: 80px;
+    width: 80%;
     height: 50px;
     border: none;
     text-align: center;
@@ -56,22 +59,25 @@ body{
     display: none;
     overflow: hidden;
     z-index: 1;
-    width: 50px;
+    width: 80%;
     height: 60px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0px 5px;
     text-align: center;
 }
 
-.combine{
-    width: 80px;
-    margin-right: 30px;
+.content a{
+    padding: 10px 14px;
+    margin-top: 6px;
+    background-color:white;
 }
 
-.content a{
-    padding: 2px;
-    margin-top: 6px;
+.content a:hover{
     background-color: gray;
+}
+
+.combine{
+    width: 90px;
+    margin-right: 30px;
 }
 
 h1{
@@ -91,6 +97,10 @@ h1{
     padding-left: 20px;
     color: white;
     text-shadow: 2px 2px 3px black;
+}
+
+.GraySocial{
+    padding-bottom: 20px;
 }
 
 .ImagesGray{
@@ -145,7 +155,7 @@ h2{
 }
 
 .DNLSocial{
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 
 #Godh {
