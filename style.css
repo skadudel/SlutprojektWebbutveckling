@@ -3,6 +3,11 @@
     font-family: sans-serif;
 }
 
+@font-face {
+    font-family: kaushan;
+    src: url(KaushanScript-Regular.otf);
+}
+
 body{
     margin: 0;
 }
@@ -31,6 +36,7 @@ body{
     padding-left: 8px;
     text-decoration: none;
     display: block;
+    font-family: kaushan;
 }
 
 .active{
@@ -185,5 +191,11 @@ h2{
     .ImagesDNL{
         flex-direction: row;
         flex-wrap: wrap;
+    }
+}
+
+@media  screen and (max-width:620px) {
+    #home{
+        font-size: 35px;
     }
 }
