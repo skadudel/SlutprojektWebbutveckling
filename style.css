@@ -55,7 +55,10 @@ body{
     border: none;
     text-align: center;
     outline: none;
+}
 
+button {
+    color: #000;
 }
 
 .collapsible:hover{
