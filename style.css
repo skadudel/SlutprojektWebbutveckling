@@ -44,6 +44,7 @@ body{
 }
 
 .collapsible{
+    color: black;
     background-color: white;
     cursor: pointer;
     font-size: 15px;
