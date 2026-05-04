@@ -192,10 +192,6 @@ h2{
     .DNLText{
         width: 90vw;
     }
-    .ImagesDNL{
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
 }
 
 @media  screen and (max-width:620px) {
