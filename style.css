@@ -193,7 +193,7 @@ h2{
         width: 90vw;
     }
     .ImagesDNL{
-        flex-direction: row;
+        flex-direction: column;
         flex-wrap: wrap;
     }
 }
