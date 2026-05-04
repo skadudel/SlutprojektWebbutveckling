@@ -192,6 +192,10 @@ h2{
     .DNLText{
         width: 90vw;
     }
+
+    .ImagesDNL img{
+        width: 90vw;
+    }
 }
 
 @media  screen and (max-width:620px) {
